@@ -1,0 +1,24 @@
+﻿ awthemes 主题
+ 需要 .dll 库文件
+ 并且 64位的 与 32位的 库文件 不一样。
+ 
+ 因为主题包是 tcl 语言写的，不太会改。
+
+ 版本 JJui v2.0.1 之后
+ awthemes 主题，干脆用两份吧：
+  默认用这个文件夹：
+    .jjui\themes\awthemes
+  如果 用的 windows 32位 的 python ，则用这个文件夹:
+    .jjui\themes\awthemes_32bit
+ 
+ 
+ 
+
+ 
+ 下载地址：
+	https://wiki.tcl-lang.org/page/tksvg
+	
+	https://github.com/oehhar/tksvg
+	https://github.com/oehhar/tksvg/releases
+
+ 如果是用的 linux ，自己下载对应的库文件，放在 .jjui\themes\awthemes ， 在 pkgIndex.tcl 文件中，修改一下对应的文件名。
